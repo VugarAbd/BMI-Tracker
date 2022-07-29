@@ -1,0 +1,60 @@
+.App {
+    width: 700px;
+    height: 400px;
+    background-color: #172b4d;
+}
+.bimList{
+    width: 700px;
+    height: 200px;
+    background-color: #172b4d;
+    display: flex;
+    flex-direction: column;
+}
+.inputsContainer {
+    display: flex;
+    justify-content: space-around;
+    height: 90px;
+}
+.buttonStyle{
+    display: flex;
+    height: 90px;
+    flex-direction: row;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+
+
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+input {
+    width: 270px;
+    height: 35px;
+    border-radius: 15px;
+    border: #fff;
+    outline: none;
+    padding-left: 10px;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: #fff;
+    outline: none;
+    background: rgb(169, 166, 166);
+}
+p {
+    height: 4px;
+    color: #fff;
+}
+.bimRes {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    margin-top: 10px;
+}
